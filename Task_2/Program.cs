@@ -1,0 +1,15 @@
+﻿Console.Clear();
+Console.Write("Введите координату xA: ");
+double xA = double.Parse(Console.ReadLine());
+Console.Write("Введите координату yA: ");
+double yA = double.Parse(Console.ReadLine());
+Console.Write("Введите координату zA: ");
+double zA = double.Parse(Console.ReadLine());
+Console.Write("Введите координату xB: ");
+double xB = double.Parse(Console.ReadLine());
+Console.Write("Введите координату yB: ");
+double yB = double.Parse(Console.ReadLine());
+Console.Write("Введите координату zB: ");
+double zB = double.Parse(Console.ReadLine());
+double l = Math.Sqrt(Math.Pow(xB-xA,2)+Math.Pow(yB-yA,2)+Math.Pow(zB-zA,2));
+Console.WriteLine($"Расстояние между точками: {l:f2}");
